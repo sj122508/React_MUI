@@ -1,0 +1,12 @@
+Installation
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material (for icons)
+
+Button
+- Three variant
+    Text - grab less attention
+    Contained - grab users attention
+    Outlined - cancel or go back 
+
+Pallete
+- Customization -> Pallete
