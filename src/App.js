@@ -30,6 +30,9 @@ import MUIList from './components/DataDisplay/MUIList';
 import MUIChip from './components/DataDisplay/MUIChip';
 import MUITooltip from './components/DataDisplay/MUITooltip';
 import MUITable from './components/DataDisplay/MUITable';
+import EnhancedTable from './components/DataDisplay/EnhancedTable';
+import MUISkeliton from './components/DataDisplay/MUISkeliton';
+import MUIDialog from './components/DataDisplay/MUIDialog';
 
 
 function App() {
@@ -65,7 +68,10 @@ function App() {
       {/* <MUIList /> */}
       {/* <MUIChip /> */}
       {/* <MUITooltip /> */}
-      <MUITable />
+      {/* <MUITable /> */}
+      {/* <EnhancedTable /> */}
+      {/* <MUISkeliton /> */}
+      <MUIDialog />
     </div>
   );
 }

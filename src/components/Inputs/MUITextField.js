@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import {Stack, TextField, Typography, InputAdornment} from '@mui/material';
 import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
+import SearchIcon from '@mui/icons-material/Search';
 
 function MUITextField() {
     // create state for value
@@ -109,7 +110,19 @@ function MUITextField() {
                             <MonetizationOnIcon color='secondary'/>
                         </InputAdornment>,
                     }}
-                />              
+                />    
+
+                <TextField 
+                    label="Search" 
+                    // variant="outlined" 
+                    color='primary' 
+                    size='small' 
+                    InputProps={{
+                        endAdornment: <InputAdornment position="end">
+                            <SearchIcon />
+                        </InputAdornment>,
+                    }}
+                />           
             </Stack>
 
         <Typography variant="h6" color='#616161'>TextField with adornment</Typography>
